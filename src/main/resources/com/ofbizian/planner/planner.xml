@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <scanAnnotatedClasses>
+        <packageInclude>com.ofbizian.planner</packageInclude>
+    </scanAnnotatedClasses>
+
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>com.ofbizian.planner.ProblemScoreCalculator</easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+
+    <termination>
+        <secondsSpentLimit>3</secondsSpentLimit>
+    </termination>
+</solver>
